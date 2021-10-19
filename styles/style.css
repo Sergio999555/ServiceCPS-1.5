@@ -9,7 +9,8 @@ body {
   color: #7E7E82;
   background-color: #f8f8f8;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  max-width: 1280px; }
 
 .swiper-wrapper {
   display: -webkit-box;
@@ -55,9 +56,7 @@ body {
   .repair-brands__navigation {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    margin-left: 32px;
     list-style: none;
     row-gap: 16px;
     -webkit-column-gap: 32px;

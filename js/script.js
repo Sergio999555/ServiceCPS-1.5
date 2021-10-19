@@ -12,6 +12,7 @@ function mobileSlider() {
         slideClass: 'swiper-slide',
         pagination: {
           el: ".swiper-pagination",
+          clickable: true,
         },
       });
 

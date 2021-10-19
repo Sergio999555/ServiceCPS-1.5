@@ -12,6 +12,7 @@ body {
   background-color: #f8f8f8;
   margin: 0;
   padding: 0;
+  max-width: 1280px;
 }
 
 .swiper-wrapper {
@@ -58,7 +59,7 @@ body {
     
     &__navigation {
       flex-wrap: wrap;
-      justify-content: center;
+      margin-left: 32px;
       list-style: none;
       row-gap: 16px;
       column-gap: 32px;
